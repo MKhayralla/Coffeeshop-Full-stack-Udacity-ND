@@ -5,9 +5,9 @@ from jose import jwt
 from urllib.request import urlopen
 
 # Auth0 configuration
-AUTH0_DOMAIN = 'dev-vy99-vnq.us.auth0.com'
+AUTH0_DOMAIN = 'you auth0 tenant domain'
 ALGORITHMS = ['RS256']
-API_AUDIENCE = 'https://drinks.udacity.api'
+API_AUDIENCE = 'your API identifier'
 
 # AuthError Exception
 '''
